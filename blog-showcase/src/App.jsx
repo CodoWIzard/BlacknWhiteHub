@@ -44,16 +44,16 @@ export default function App() {
 
   const testimonials = [
     {
-      name: "Alice Johnson",
-      feedback: "This blog’s design is clean and easy to navigate. Love it!",
+      name: "Person A",
+      feedback: "This blog’s design is clean.",
     },
     {
-      name: "Mark Lee",
-      feedback: "Minimalism at its best. Typography is excellent.",
+      name: "Person B",
+      feedback: "Minimalism at its best.",
     },
     {
-      name: "Sophia Chen",
-      feedback: "Responsive layouts make reading a pleasure on any device.",
+      name: "Person C",
+      feedback: "Responsive.",
     },
   ];
 
@@ -118,10 +118,10 @@ export default function App() {
       </div>
 
       <header className="w-full py-24 px-6 text-center bg-gradient-to-b from-black via-gray-900 to-black">
-        <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight mb-6">
+        <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight mb-6 text-white">
           Black & White Hub
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-80 mb-8">
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-80 mb-8 text-white">
           An interactive productivity & knowledge hub built with React &
           Tailwind.
         </p>
@@ -182,7 +182,9 @@ export default function App() {
       </section>
 
       <section className="max-w-6xl px-6 py-24 text-center bg-gray-900 rounded-3xl">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">Projects</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          Projects
+        </h2>
         <div className="flex justify-center gap-4 mb-6">
           {["All", "Web Design", "UI/UX"].map((category) => (
             <button
