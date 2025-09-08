@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vibrant-pink: #ff3cac;
+  --color-vibrant-orange: #ff9a8b;
+  --color-vibrant-yellow: #ffd93d;
+  --color-vibrant-green: #6ee7b7;
+  --color-vibrant-blue: #3b82f6;
+  --color-vibrant-purple: #a855f7;
+
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-gradient-to-br from-vibrant-pink via-vibrant-orange to-vibrant-yellow text-gray-900;
+  font-family: var(--font-body);
+}
