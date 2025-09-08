@@ -1,11 +1,11 @@
 Black & White Hub
 
-A sleek, interactive, one-page knowledge hub built with React and Tailwind CSS. Users can search posts, add new posts, filter projects, toggle dark/light mode, and explore testimonials. Fully responsive and optimized for modern web experience.
+An interactive webapp where I show my foundational skills in React. Play around with primitive functions and interactions.
 
 Live Demo
 
 Visit Live Site
-(replace # with your live link)
+(COMING SOON)
 
 Features
 
