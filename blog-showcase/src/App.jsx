@@ -3,22 +3,22 @@ import { useState, useEffect } from "react";
 export default function App() {
   const initialPosts = [
     {
-      title: "Minimalist Design",
-      desc: "Exploring the elegance of black & white in modern web design.",
+      title: "TestCard1",
+      desc: "First testing card",
       date: "Sep 8, 2025",
     },
     {
-      title: "Typography Matters",
-      desc: "How fonts and spacing can create visual harmony.",
+      title: "TestCard2",
+      desc: "Visual Harmony",
       date: "Sep 7, 2025",
     },
     {
-      title: "Responsive Layouts",
-      desc: "Designs that look perfect on every device.",
+      title: "TestCard3",
+      desc: "Responsive.",
       date: "Sep 6, 2025",
     },
     {
-      title: "Subtle Interactions",
+      title: "TestCard4",
       desc: "Adding life with hover effects and micro-animations.",
       date: "Sep 5, 2025",
     },
@@ -28,17 +28,17 @@ export default function App() {
     {
       title: "Portfolio Redesign",
       category: "Web Design",
-      desc: "Transforming a cluttered portfolio into a sleek black & white experience.",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       title: "E-commerce UI",
       category: "UI/UX",
-      desc: "Modern and clean product pages with subtle hover effects.",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       title: "Landing Page",
       category: "Web Design",
-      desc: "Eye-catching one-page design with smooth scrolling interactions.",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ];
 
